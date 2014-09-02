@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -103,7 +103,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -374,12 +374,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-9",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 378.0, 1044.0, 386.0, 34.0 ],
-					"text" : "readfolder DATENTRõGER:/Lorkas/HumanDrummer/alphabet"
+					"text" : "readfolder \"Macintosh_HD:/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/SpringConcert/GARI/player_three/alphabet\""
 				}
 
 			}
@@ -388,12 +389,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-82",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 378.0, 985.0, 374.0, 34.0 ],
-					"text" : "DATENTRõGER:/Lorkas/HumanDrummer/alphabet"
+					"text" : "\"Macintosh_HD:/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/SpringConcert/GARI/player_three/alphabet\""
 				}
 
 			}
@@ -402,12 +404,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 421.0, 880.0, 382.0, 34.0 ],
-					"text" : "DATENTRõGER:/Lorkas/HumanDrummer/"
+					"text" : "\"Macintosh_HD:/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/SpringConcert/GARI/player_three/\""
 				}
 
 			}
@@ -514,11 +517,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 332.0, 112.0, 1160.0, 781.0 ],
+						"rect" : [ 280.0, 112.0, 1160.0, 781.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -543,13 +546,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 5,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 189.0, 353.0, 50.0, 72.0 ],
-									"text" : "note 65.406395 0.491732"
+									"patching_rect" : [ 189.0, 353.0, 50.0, 45.0 ],
+									"text" : "note 65.406395 0."
 								}
 
 							}
@@ -713,7 +716,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 120.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -958,7 +961,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1290,7 +1293,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1668,7 +1671,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1691,7 +1694,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1803,7 +1805,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -2249,6 +2251,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -2844,15 +2855,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2939,106 +2941,106 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "WiiDataPlaybackRouter.maxpat",
-				"bootpath" : "/Volumes/DATENTRõGER/Lorkas/HumanDrummer",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /FALL 2013/MTC590/MoCap/Patches",
+				"patcherrelativepath" : "../../../../../FALL 2013/MTC590/MoCap/Patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.output~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/output~",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/output~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.js_systeminfo.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/javascript",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/javascript",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.scale.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.scale",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.scale",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/SpringConcert/GARI/player_one/jmod.nav.scale",
+				"patcherrelativepath" : "../player_one/jmod.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.scale.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.scale",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.scale",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/SpringConcert/GARI/player_one/jmod.nav.scale",
+				"patcherrelativepath" : "../player_one/jmod.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.qom.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/qom",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/qom",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/qom",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.10harmonics~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/10harmonics~",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/10harmonics~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/10harmonics~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.10harmonics~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/10harmonics~",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/10harmonics~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/10harmonics~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "humandrummerbass~.maxpat",
-				"bootpath" : "/Volumes/DATENTRõGER/Lorkas/HumanDrummer",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/HumanDrummer",
+				"patcherrelativepath" : "../../../../HumanDrummer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "harmonics~.maxpat",
-				"bootpath" : "/Volumes/DATENTRõGER/Lorkas/HumanDrummer",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/SpringConcert/Oliveros",
+				"patcherrelativepath" : "../../Oliveros",
 				"type" : "JSON",
 				"implicit" : 1
 			}
