@@ -1,0 +1,1 @@
+This demo package for AudioCubes is Copyright (c) Bert Schiettecatte. All rights reserved. 
