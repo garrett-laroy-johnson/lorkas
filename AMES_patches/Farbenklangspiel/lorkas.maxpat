@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -8.0, 50.0, 1366.0, 640.0 ],
+		"rect" : [ 79.0, 111.0, 1366.0, 640.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,6 +28,24 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-34",
+					"linecount" : 15,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 281.0, 493.0, 150.0, 208.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 13,
+					"presentation_rect" : [ 173.0, 395.0, 183.0, 181.0 ],
+					"text" : "right hand = sound source\n1- synth\n2 - recorded sound\n3 - shifter\n\nleft hand = sound you select\n\ncut-throat = you're out\n\nimitate movements of conductor\n\nup = increase activity\ndown = decrease activity"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -51,9 +70,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1134.0, 573.0, 51.0, 24.0 ],
+					"patching_rect" : [ 1134.0, 573.0, 51.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1004.0, 423.0, 51.0, 24.0 ],
+					"presentation_rect" : [ 1004.0, 423.0, 51.0, 23.0 ],
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
 
@@ -98,11 +117,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 33.0, 75.0, 797.0, 582.0 ],
+						"rect" : [ -34.0, 44.0, 797.0, 582.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -121,6 +141,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -209,8 +230,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 33.0, 75.0, 722.0, 518.0 ],
@@ -421,9 +443,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 171.25, 313.0, 168.25, 26.0 ],
+					"patching_rect" : [ 171.25, 313.0, 172.25, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 148.0, 168.25, 26.0 ],
+					"presentation_rect" : [ 45.0, 148.0, 172.25, 23.0 ],
 					"text" : "select FM Synth sound",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -433,6 +455,8 @@
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "live.tab",
+					"num_lines_patching" : 0,
+					"num_lines_presentation" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
@@ -442,11 +466,11 @@
 					"presentation_rect" : [ 45.0, 174.0, 250.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "one", "two", "three", "four" ],
-							"parameter_unitstyle" : 0,
-							"parameter_type" : 2,
+							"parameter_longname" : "live.tab[1]",
 							"parameter_shortname" : "live.tab",
-							"parameter_longname" : "live.tab[1]"
+							"parameter_type" : 2,
+							"parameter_enum" : [ "one", "two", "three", "four" ],
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -466,9 +490,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 941.0, 573.0, 49.0, 24.0 ],
+					"patching_rect" : [ 941.0, 573.0, 49.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1004.0, 382.0, 49.0, 24.0 ],
+					"presentation_rect" : [ 1004.0, 382.0, 49.0, 23.0 ],
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
 
@@ -483,9 +507,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 675.0, 225.0, 26.0 ],
+					"patching_rect" : [ 675.0, 675.0, 225.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 736.0, 514.0, 229.0, 26.0 ],
+					"presentation_rect" : [ 736.0, 514.0, 229.0, 23.0 ],
 					"text" : "Shifter Feedback",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -501,9 +525,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 639.0, 225.0, 26.0 ],
+					"patching_rect" : [ 675.0, 639.0, 225.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 736.0, 468.0, 229.0, 26.0 ],
+					"presentation_rect" : [ 736.0, 468.0, 229.0, 23.0 ],
 					"text" : "Shifter Delay",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -519,9 +543,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 601.0, 225.0, 26.0 ],
+					"patching_rect" : [ 675.0, 601.0, 225.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 736.0, 423.0, 229.0, 26.0 ],
+					"presentation_rect" : [ 736.0, 423.0, 229.0, 23.0 ],
 					"text" : "Playback Speed",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -537,9 +561,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 567.0, 259.0, 26.0 ],
+					"patching_rect" : [ 675.0, 567.0, 259.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 736.0, 381.0, 243.5, 26.0 ],
+					"presentation_rect" : [ 736.0, 381.0, 243.5, 23.0 ],
 					"text" : "FM Synth/Shifter Pitch",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -609,9 +633,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1037.0, 675.0, 44.0, 24.0 ],
+					"patching_rect" : [ 1037.0, 675.0, 44.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1004.0, 514.0, 44.0, 24.0 ],
+					"presentation_rect" : [ 1004.0, 514.0, 44.0, 23.0 ],
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
 
@@ -680,9 +704,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 146.0, 254.0, 168.25, 26.0 ],
+					"patching_rect" : [ 146.0, 254.0, 168.25, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 211.0, 168.25, 26.0 ],
+					"presentation_rect" : [ 45.0, 211.0, 168.25, 23.0 ],
 					"text" : "select sounds to play",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -692,6 +716,8 @@
 				"box" : 				{
 					"id" : "obj-81",
 					"maxclass" : "live.tab",
+					"num_lines_patching" : 0,
+					"num_lines_presentation" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
@@ -701,11 +727,11 @@
 					"presentation_rect" : [ 43.0, 237.0, 250.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "one", "two", "three", "four", "five", "random" ],
-							"parameter_unitstyle" : 0,
-							"parameter_type" : 2,
+							"parameter_longname" : "live.tab",
 							"parameter_shortname" : "live.tab",
-							"parameter_longname" : "live.tab"
+							"parameter_type" : 2,
+							"parameter_enum" : [ "one", "two", "three", "four", "five", "random" ],
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -727,8 +753,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 8.0, 50.0, 989.0, 640.0 ],
@@ -1213,8 +1240,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 511.0, 125.0, 608.0, 452.0 ],
@@ -2171,9 +2199,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.5, 177.0, 129.0, 26.0 ],
+					"patching_rect" : [ 121.5, 177.0, 129.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 67.25, 275.0, 129.0, 26.0 ],
+					"presentation_rect" : [ 67.25, 275.0, 129.0, 23.0 ],
 					"text" : "sound on/off",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -2204,9 +2232,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 595.285645, 413.0, 204.0, 46.0 ],
+					"patching_rect" : [ 595.285645, 413.0, 204.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 369.0, 316.0, 26.0 ],
+					"presentation_rect" : [ 356.0, 369.0, 316.0, 23.0 ],
 					"text" : "click on the picture to select color to track",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -2222,9 +2250,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 208.0, 109.5, 26.0 ],
+					"patching_rect" : [ 152.0, 208.0, 109.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 319.0, 109.5, 26.0 ],
+					"presentation_rect" : [ 69.0, 319.0, 109.5, 23.0 ],
 					"text" : "loop on/off",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -2266,9 +2294,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 41.0, 179.0, 34.0 ],
+					"patching_rect" : [ 61.0, 41.0, 179.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 41.0, 179.0, 34.0 ],
+					"presentation_rect" : [ 45.0, 41.0, 179.0, 30.0 ],
 					"text" : "Sound Source",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -2386,9 +2414,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1134.0, 502.0, 51.0, 24.0 ],
+					"patching_rect" : [ 1134.0, 502.0, 51.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1004.0, 468.0, 51.0, 24.0 ],
+					"presentation_rect" : [ 1004.0, 468.0, 51.0, 23.0 ],
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
 
@@ -2495,7 +2523,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"bgcolor" : [ 0.605882, 0.535294, 0.452941, 1.0 ],
 					"border" : 2,
 					"id" : "obj-59",
 					"maxclass" : "panel",
@@ -2509,7 +2537,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.405882, 0.335294, 0.252941, 1.0 ],
 					"border" : 2,
 					"id" : "obj-58",
 					"maxclass" : "panel",
@@ -2562,8 +2590,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 11.0, 50.0, 1363.0, 640.0 ],
@@ -3802,8 +3831,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 403.0, 110.0, 640.0, 480.0 ],
@@ -3863,8 +3893,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 860.0, 499.0 ],
@@ -4194,8 +4225,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 970.0, 595.0 ],
@@ -5086,9 +5118,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.0, 41.0, 179.0, 34.0 ],
+					"patching_rect" : [ 497.0, 41.0, 179.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.0, 41.0, 179.0, 34.0 ],
+					"presentation_rect" : [ 387.0, 41.0, 179.0, 30.0 ],
 					"text" : "Video On/Off",
 					"textcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ]
 				}
@@ -5604,70 +5636,70 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-81" : [ "live.tab", "live.tab", 0 ],
-			"obj-22" : [ "live.tab[1]", "live.tab", 0 ]
+			"obj-22" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-81" : [ "live.tab", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "FMSynth.maxpat",
-				"bootpath" : "\\Users\\Gil\\Documents\\Scores\\Lorkas",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/Farbenklangspiel",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplesynth_no_env.maxpat",
-				"bootpath" : "\\Users\\Gil\\Documents\\Scores\\Lorkas",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/Farbenklangspiel",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simpleFM~.maxpat",
-				"bootpath" : "\\PROGRA~2\\CYCLIN~1\\MAX6~1.0\\patches\\docs\\tutorial-patchers\\msp-tut",
-				"patcherrelativepath" : "..\\..\\..\\..\\..\\PROGRA~2\\CYCLIN~1\\MAX6~1.0\\patches\\docs\\tutorial-patchers\\msp-tut",
+				"bootpath" : "/Applications/Max 6.1/patches/docs/tutorial-patchers/msp-tut",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/patches/docs/tutorial-patchers/msp-tut",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shifter~",
-				"bootpath" : "\\Users\\Gil\\Documents\\Scores\\Lorkas",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/Farbenklangspiel",
+				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phwrap~",
-				"bootpath" : "\\Users\\Gil\\Documents\\Scores\\Lorkas",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/Farbenklangspiel",
+				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "otof",
-				"bootpath" : "\\Users\\Gil\\Documents\\Scores\\Lorkas",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/Farbenklangspiel",
+				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "instructions-page-001.jpg",
-				"bootpath" : "\\Users\\Gil\\Documents\\Scores\\Lorkas",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/Farbenklangspiel",
+				"patcherrelativepath" : ".",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "instructions-page-002.jpg",
-				"bootpath" : "\\Users\\Gil\\Documents\\Scores\\Lorkas",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/Farbenklangspiel",
+				"patcherrelativepath" : ".",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "conductor-page-001.jpg",
-				"bootpath" : "\\Users\\Gil\\Documents\\Scores\\Lorkas",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/Farbenklangspiel",
+				"patcherrelativepath" : ".",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
