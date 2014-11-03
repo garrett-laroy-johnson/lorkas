@@ -302,18 +302,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 124.0, 45.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 77.5, 336.5, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-337",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -5067,15 +5055,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-239", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5842,24 +5821,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-327", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-327", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-308", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5959,39 +5920,39 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-299" : [ "gain~[8]", "gain~[8]", 0 ],
-			"obj-276" : [ "gain~[10]", "gain~[10]", 0 ],
+			"obj-207" : [ "gain~[6]", "gain~[6]", 0 ],
 			"obj-86" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-243" : [ "gain~[13]", "gain~[13]", 0 ],
-			"obj-123" : [ "gain~", "gain~", 0 ],
-			"obj-209" : [ "flonum[3]", "flonum[3]", 0 ],
-			"obj-253" : [ "gain~[12]", "gain~[12]", 0 ],
-			"obj-186" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-63" : [ "slider[2]", "slider[2]", 0 ],
 			"obj-163" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-220" : [ "gain~[15]", "gain~[15]", 0 ],
+			"obj-299" : [ "gain~[8]", "gain~[8]", 0 ],
 			"obj-301" : [ "flonum[4]", "flonum[4]", 0 ],
-			"obj-230" : [ "gain~[14]", "gain~[14]", 0 ],
-			"obj-4" : [ "toggle", "toggle", 0 ],
-			"obj-308" : [ "number", "number", 0 ],
-			"obj-255" : [ "flonum[6]", "flonum[6]", 0 ],
-			"obj-102" : [ "gain~[1]", "gain~[1]", 0 ],
-			"obj-151" : [ "gain~[3]", "gain~[3]", 0 ],
+			"obj-220" : [ "gain~[15]", "gain~[15]", 0 ],
+			"obj-197" : [ "gain~[7]", "gain~[7]", 0 ],
 			"obj-174" : [ "gain~[5]", "gain~[5]", 0 ],
+			"obj-230" : [ "gain~[14]", "gain~[14]", 0 ],
+			"obj-151" : [ "gain~[3]", "gain~[3]", 0 ],
+			"obj-232" : [ "flonum[7]", "flonum[7]", 0 ],
+			"obj-161" : [ "gain~[2]", "gain~[2]", 0 ],
+			"obj-289" : [ "gain~[9]", "gain~[9]", 0 ],
+			"obj-209" : [ "flonum[3]", "flonum[3]", 0 ],
+			"obj-88" : [ "live.text", "live.text", 0 ],
+			"obj-276" : [ "gain~[10]", "gain~[10]", 0 ],
+			"obj-4" : [ "toggle", "toggle", 0 ],
+			"obj-278" : [ "flonum[5]", "flonum[5]", 0 ],
+			"obj-123" : [ "gain~", "gain~", 0 ],
+			"obj-308" : [ "number", "number", 0 ],
+			"obj-24" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-266" : [ "gain~[11]", "gain~[11]", 0 ],
 			"obj-22" : [ "flonum[8]", "flonum[8]", 0 ],
 			"obj-126" : [ "flonum", "flonum", 0 ],
-			"obj-63" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-24" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-197" : [ "gain~[7]", "gain~[7]", 0 ],
-			"obj-289" : [ "gain~[9]", "gain~[9]", 0 ],
-			"obj-51" : [ "slider[1]", "slider[1]", 0 ],
-			"obj-266" : [ "gain~[11]", "gain~[11]", 0 ],
-			"obj-278" : [ "flonum[5]", "flonum[5]", 0 ],
-			"obj-8" : [ "slider", "slider", 0 ],
-			"obj-161" : [ "gain~[2]", "gain~[2]", 0 ],
-			"obj-232" : [ "flonum[7]", "flonum[7]", 0 ],
-			"obj-88" : [ "live.text", "live.text", 0 ],
 			"obj-184" : [ "gain~[4]", "gain~[4]", 0 ],
-			"obj-207" : [ "gain~[6]", "gain~[6]", 0 ]
+			"obj-186" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-51" : [ "slider[1]", "slider[1]", 0 ],
+			"obj-243" : [ "gain~[13]", "gain~[13]", 0 ],
+			"obj-102" : [ "gain~[1]", "gain~[1]", 0 ],
+			"obj-8" : [ "slider", "slider", 0 ],
+			"obj-253" : [ "gain~[12]", "gain~[12]", 0 ],
+			"obj-255" : [ "flonum[6]", "flonum[6]", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
