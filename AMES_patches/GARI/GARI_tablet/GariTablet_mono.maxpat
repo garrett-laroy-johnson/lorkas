@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -12.0, 111.0, 1161.0, 645.0 ],
+		"rect" : [ 0.0, 111.0, 1161.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.817383, 198.0, 99.0, 20.0 ],
+					"patching_rect" : [ 181.0, 198.0, 99.0, 20.0 ],
 					"text" : "send~ graphics1"
 				}
 
@@ -90,7 +90,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -6139,7 +6138,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -7770,6 +7768,13 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-83::obj-31.25::obj-28" : [ "flonum[24]", "flonum", 0 ],
+			"obj-83::obj-31.27::obj-28" : [ "flonum[26]", "flonum", 0 ],
+			"obj-83::obj-31.29::obj-28" : [ "flonum[28]", "flonum", 0 ],
+			"obj-83::obj-31.2::obj-28" : [ "flonum[1]", "flonum", 0 ],
+			"obj-83::obj-31.10::obj-28" : [ "flonum[9]", "flonum", 0 ],
+			"obj-83::obj-31.18::obj-28" : [ "flonum[17]", "flonum", 0 ],
+			"obj-83::obj-31.23::obj-28" : [ "flonum[22]", "flonum", 0 ],
 			"obj-83::obj-31.9::obj-28" : [ "flonum[8]", "flonum", 0 ],
 			"obj-83::obj-31.12::obj-28" : [ "flonum[11]", "flonum", 0 ],
 			"obj-83::obj-31.19::obj-28" : [ "flonum[18]", "flonum", 0 ],
@@ -7779,33 +7784,26 @@
 			"obj-83::obj-31.7::obj-28" : [ "flonum[6]", "flonum", 0 ],
 			"obj-83::obj-31.32::obj-28" : [ "flonum[31]", "flonum", 0 ],
 			"obj-83::obj-31.8::obj-28" : [ "flonum[7]", "flonum", 0 ],
+			"obj-159" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"obj-83::obj-31.16::obj-28" : [ "flonum[15]", "flonum", 0 ],
 			"obj-83::obj-31.17::obj-28" : [ "flonum[16]", "flonum", 0 ],
 			"obj-83::obj-31.22::obj-28" : [ "flonum[21]", "flonum", 0 ],
 			"obj-83::obj-31.24::obj-28" : [ "flonum[23]", "flonum", 0 ],
+			"obj-5::obj-12" : [ "toggle", "toggle", 0 ],
 			"obj-83::obj-31.26::obj-28" : [ "flonum[25]", "flonum", 0 ],
+			"obj-81" : [ "number", "number", 0 ],
 			"obj-83::obj-31.4::obj-28" : [ "flonum[3]", "flonum", 0 ],
 			"obj-83::obj-31.5::obj-28" : [ "flonum[4]", "flonum", 0 ],
+			"obj-5::obj-23" : [ "number[1]", "number[1]", 0 ],
 			"obj-83::obj-31.6::obj-28" : [ "flonum[5]", "flonum", 0 ],
 			"obj-83::obj-31.11::obj-28" : [ "flonum[10]", "flonum", 0 ],
 			"obj-83::obj-31.15::obj-28" : [ "flonum[14]", "flonum", 0 ],
+			"obj-83::obj-31.1::obj-28" : [ "flonum", "flonum", 0 ],
 			"obj-83::obj-31.31::obj-28" : [ "flonum[30]", "flonum", 0 ],
 			"obj-83::obj-31.3::obj-28" : [ "flonum[2]", "flonum", 0 ],
-			"obj-5::obj-12" : [ "toggle", "toggle", 0 ],
-			"obj-81" : [ "number", "number", 0 ],
 			"obj-83::obj-31.13::obj-28" : [ "flonum[12]", "flonum", 0 ],
 			"obj-83::obj-31.14::obj-28" : [ "flonum[13]", "flonum", 0 ],
-			"obj-159" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-83::obj-31.21::obj-28" : [ "flonum[20]", "flonum", 0 ],
-			"obj-83::obj-31.25::obj-28" : [ "flonum[24]", "flonum", 0 ],
-			"obj-83::obj-31.27::obj-28" : [ "flonum[26]", "flonum", 0 ],
-			"obj-83::obj-31.29::obj-28" : [ "flonum[28]", "flonum", 0 ],
-			"obj-83::obj-31.1::obj-28" : [ "flonum", "flonum", 0 ],
-			"obj-83::obj-31.2::obj-28" : [ "flonum[1]", "flonum", 0 ],
-			"obj-83::obj-31.10::obj-28" : [ "flonum[9]", "flonum", 0 ],
-			"obj-83::obj-31.18::obj-28" : [ "flonum[17]", "flonum", 0 ],
-			"obj-83::obj-31.23::obj-28" : [ "flonum[22]", "flonum", 0 ],
-			"obj-5::obj-23" : [ "number[1]", "number[1]", 0 ]
+			"obj-83::obj-31.21::obj-28" : [ "flonum[20]", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

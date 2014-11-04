@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 44.0, 45.0, 1170.0, 805.0 ],
+		"rect" : [ 270.0, 45.0, 1170.0, 805.0 ],
 		"bgcolor" : [ 0.745098, 0.745098, 0.705882, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 547.0, 171.0, 39.0, 20.0 ],
+					"text" : "s avg"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "planecount",
 					"fontname" : "Arial",
@@ -55,87 +68,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 524.0, 505.0, 110.0, 21.0 ],
 					"text_width" : 49.620026
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 575.0, 573.0, 159.0, 20.0 ],
-					"text" : "jit.matrix foo 1 char 640 480"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-82",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.syphonclient%.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 85.0, 554.0, 300.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-81",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 504.0, 654.0, 80.0, 60.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-67",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1117.0, 462.0, 165.0, 18.0 ],
-					"text" : "servername \"Syphon Server\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-77",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1058.5, 417.5, 103.0, 18.0 ],
-					"text" : "servername Jitter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-75",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 685.0, 622.0, 107.0, 20.0 ],
-					"text" : "jit.gl.syphonserver"
 				}
 
 			}
@@ -232,7 +164,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 314.0, 137.0, 20.0, 20.0 ]
+					"patching_rect" : [ 429.0, 57.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -245,8 +177,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 314.0, 188.0, 71.0, 21.0 ],
-					"text" : "metro 100"
+					"patching_rect" : [ 447.5, 85.0, 76.0, 21.0 ],
+					"text" : "metro 1000"
 				}
 
 			}
@@ -261,7 +193,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 464.0, 195.0, 50.0, 31.0 ],
-					"text" : "0.080541"
+					"text" : "0.025006"
 				}
 
 			}
@@ -413,7 +345,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 464.0, 486.0, 181.0, 17.0 ],
+					"patching_rect" : [ 423.0, 538.0, 181.0, 17.0 ],
 					"text" : "jit.gl.render foo @erase_color 0.1 0.1 0.1 1"
 				}
 
@@ -427,8 +359,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 575.0, 339.0, 80.0, 17.0 ],
-					"text" : "jit.gl.handle foo"
+					"patching_rect" : [ 582.0, 371.0, 80.0, 17.0 ],
+					"text" : "jit.gl.handle xmas"
 				}
 
 			}
@@ -441,8 +373,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 514.5, 440.0, 409.0, 17.0 ],
-					"text" : "jit.gl.nurbs foo @order 2 2 @dim 30 30 @blend_enable 1 @lighting_enable 1 @color 0.1 0.2 0.1 0.6"
+					"patching_rect" : [ 514.5, 440.0, 418.0, 17.0 ],
+					"text" : "jit.gl.nurbs xmas @order 2 2 @dim 30 30 @blend_enable 1 @lighting_enable 1 @color 0.1 0.2 0.1 0.6"
 				}
 
 			}
@@ -709,7 +641,6 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 584.5, 364.0, 524.0, 364.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -719,7 +650,6 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 491.5, 363.0, 524.0, 363.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -739,24 +669,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-81", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -801,7 +713,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 454.166656, 374.0, 473.5, 374.0 ],
+					"midpoints" : [ 454.166656, 374.0, 432.5, 374.0 ],
 					"source" : [ "obj-22", 1 ]
 				}
 
@@ -811,7 +723,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 438.5, 374.0, 473.5, 374.0 ],
+					"midpoints" : [ 438.5, 374.0, 432.5, 374.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -821,7 +733,6 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 469.833344, 363.0, 524.0, 363.0 ],
 					"source" : [ "obj-22", 2 ]
 				}
 
@@ -928,24 +839,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 60.5, 375.0, 239.5, 375.0 ],
 					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -1077,6 +970,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1122,30 +1024,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 1126.5, 492.0, 694.5, 492.0 ],
-					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 1068.0, 492.0, 694.5, 492.0 ],
-					"source" : [ "obj-77", 0 ]
 				}
 
 			}
@@ -1159,76 +1041,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "jmod.syphonclient%.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/code/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"patcherrelativepath" : "../../../../SPRING 2014/SYNTHESIS/code/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jalg.syphonclient%.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/code/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"patcherrelativepath" : "../../../../SPRING 2014/SYNTHESIS/code/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.gl.syphonserver.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.gl.syphonclient.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.hub.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.dataspace.mxo",
-				"type" : "iLaX"
-			}
- ]
+		"dependency_cache" : [  ]
 	}
 
 }
