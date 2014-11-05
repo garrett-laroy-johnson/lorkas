@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 150.0, 65.0, 1290.0, 755.0 ],
+		"rect" : [ 201.0, 59.0, 871.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 420.0, 497.0, 218.0, 20.0 ],
+					"text" : "jit.gl.syphonserver @servername xmas"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -64,7 +78,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -534,20 +547,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.0, 497.0, 107.0, 20.0 ],
-					"text" : "jit.gl.syphonserver"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -751,7 +750,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 523.0, 277.5, 118.0, 21.0 ],
+					"patching_rect" : [ 523.0, 285.0, 118.0, 21.0 ],
 					"text" : "jit.gl.render fluids"
 				}
 
@@ -1147,7 +1146,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 2 ]
@@ -1197,64 +1196,64 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jmod.o4.fluids%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"bootpath" : "/Users/mbriggs/Documents/Synthesis/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../../../../Synthesis/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.fluids%.ui.panel.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"bootpath" : "/Users/mbriggs/Documents/Synthesis/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../../../../Synthesis/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tml.ejm.bilogscaler.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"bootpath" : "/Users/mbriggs/Documents/Synthesis/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../../../../Synthesis/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"bootpath" : "/Users/mbriggs/Documents/Synthesis/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../../../../Synthesis/Synthesis_o4/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.input%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
