@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 151.0, 123.0, 1491.0, 865.0 ],
+		"rect" : [ -51.0, 123.0, 1491.0, 865.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -54,7 +54,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -325,7 +325,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -512,7 +512,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -1492,7 +1492,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -2505,7 +2505,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -3913,7 +3913,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -5734,7 +5734,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -5757,7 +5757,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-20",
@@ -5820,7 +5819,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 782.5, 125.0, 37.0, 20.0 ],
-									"text" : "r 3gx"
+									"text" : "r 1gx"
 								}
 
 							}
@@ -5834,7 +5833,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 632.5, 125.0, 37.0, 20.0 ],
-									"text" : "r 3az"
+									"text" : "r 1az"
 								}
 
 							}
@@ -5848,7 +5847,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 481.0, 125.0, 37.0, 20.0 ],
-									"text" : "r 3ay"
+									"text" : "r 1ay"
 								}
 
 							}
@@ -5862,7 +5861,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 332.5, 125.0, 37.0, 20.0 ],
-									"text" : "r 3ax"
+									"text" : "r 1ax"
 								}
 
 							}
@@ -5880,7 +5879,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -5903,7 +5902,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -5918,7 +5916,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -6784,7 +6782,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -6930,7 +6928,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -6967,7 +6965,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -7001,7 +6999,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 156.0, 256.0, 50.0, 31.0 ],
-																	"text" : "0.008102"
+																	"text" : "0.042098"
 																}
 
 															}
@@ -7739,11 +7737,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 189.0, 44.0, 1145.0, 806.0 ],
+						"rect" : [ 189.0, 45.0, 1145.0, 806.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7762,7 +7760,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-20",
@@ -7825,7 +7822,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 752.5, 95.0, 37.0, 20.0 ],
-									"text" : "r 2gx"
+									"text" : "r 1gx"
 								}
 
 							}
@@ -7839,7 +7836,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 602.5, 95.0, 37.0, 20.0 ],
-									"text" : "r 2az"
+									"text" : "r 1az"
 								}
 
 							}
@@ -7853,7 +7850,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 451.0, 95.0, 37.0, 20.0 ],
-									"text" : "r 2ay"
+									"text" : "r 1ay"
 								}
 
 							}
@@ -7867,7 +7864,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 302.5, 95.0, 37.0, 20.0 ],
-									"text" : "r 2ax"
+									"text" : "r 1ax"
 								}
 
 							}
@@ -7885,7 +7882,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -7922,7 +7919,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -9111,7 +9108,25 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-50", 0 ]
@@ -9228,18 +9243,18 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-41::obj-20::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-61::obj-16::obj-69" : [ "live.tab[10]", "live.tab", 0 ],
-			"obj-50::obj-15::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-61::obj-17::obj-69" : [ "live.tab[9]", "live.tab", 0 ],
-			"obj-41::obj-17::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-41::obj-16::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-50::obj-16::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-61::obj-20::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
-			"obj-50::obj-20::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-50::obj-20::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-61::obj-17::obj-69" : [ "live.tab[10]", "live.tab", 0 ],
+			"obj-50::obj-17::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-50::obj-15::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-61::obj-20::obj-69" : [ "live.tab[11]", "live.tab", 0 ],
 			"obj-41::obj-15::obj-69" : [ "live.tab", "live.tab", 0 ],
-			"obj-50::obj-17::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-61::obj-15::obj-69" : [ "live.tab[11]", "live.tab", 0 ]
+			"obj-41::obj-20::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-61::obj-15::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-41::obj-17::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-50::obj-16::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-41::obj-16::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-61::obj-16::obj-69" : [ "live.tab[9]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -9258,15 +9273,15 @@
 			}
 , 			{
 				"name" : "jmod.nav.scale.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/GARI/GARI_wiimote/player_one/jmod.nav.scale",
-				"patcherrelativepath" : "../player_one/jmod.nav.scale",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.scale.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /LORKAS/lorkas/AMES_patches/GARI/GARI_wiimote/player_one/jmod.nav.scale",
-				"patcherrelativepath" : "../player_one/jmod.nav.scale",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -9274,13 +9289,6 @@
 				"name" : "jcom.autoscale.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
 				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.qom.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/qom",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/qom",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -9365,11 +9373,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "jcom.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "jcom.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
