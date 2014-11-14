@@ -1,0 +1,11 @@
+### Quit mode - configuration file
+#   order of operation
+#
+#   param   description
+#   pre:    local script run before quitting
+#   sh:     quit script to be run on remote machines 
+#   post:   local script run after quitting
+
+#pre: ~/Desktop/music/piece/scripts/pre_quit.sh
+sh: /tmp/inChuckV3/scripts/quit_inchuck.sh
+post: ~/Desktop/music/inChuckV3/scripts/quit_inchuck.sh
