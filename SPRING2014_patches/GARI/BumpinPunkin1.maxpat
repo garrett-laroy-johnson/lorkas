@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 70.0, 1208.0, 718.0 ],
+		"rect" : [ 1038.0, 108.0, 1468.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,73 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1250.0, 482.0, 90.0, 20.0 ],
+					"text" : "send~ human3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 933.0, 465.0, 90.0, 20.0 ],
+					"text" : "send~ human2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 779.0, 534.0, 90.0, 20.0 ],
+					"text" : "send~ human1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "punpking" ],
+					"id" : "obj-4",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.syn.poly~.maxpat",
+					"numinlets" : 5,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "signal", "signal" ],
+					"patching_rect" : [ 1110.0, 37.0, 300.0, 350.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 300.0, 350.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "punpking" ],
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.syn.poly~.maxpat",
+					"numinlets" : 5,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "signal", "signal" ],
+					"patching_rect" : [ 810.0, 37.0, 300.0, 350.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 300.0, 350.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "meter~",
@@ -53,16 +120,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 650.5, 471.0, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-30",
@@ -75,7 +132,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -445,8 +502,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 510.0, 37.0, 300.0, 315.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 315.0 ]
+					"patching_rect" : [ 510.0, 37.0, 300.0, 350.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 350.0 ]
 				}
 
 			}
@@ -456,8 +513,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "jmod.syn.imu.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 127.0, 37.0, 300.0, 315.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 315.0 ]
 				}
@@ -466,19 +523,19 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-10", 2 ]
+					"source" : [ "obj-1", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-10", 1 ]
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
@@ -493,10 +550,64 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -545,39 +656,93 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.syn.imu.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
-				"patcherrelativepath" : "../Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
+				"bootpath" : "/Users/student/Desktop/lorkas/SPRING2014_patches/GARI",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syn.poly~.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
-				"patcherrelativepath" : "../Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
+				"bootpath" : "/Users/student/Desktop/lorkas/SPRING2014_patches/GARI",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jamoma.poly~.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
-				"patcherrelativepath" : "../Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
+				"bootpath" : "/Users/student/Desktop/lorkas/SPRING2014_patches/GARI",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
