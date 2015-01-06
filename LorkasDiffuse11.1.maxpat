@@ -4,11 +4,15 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
+<<<<<<< Updated upstream
 		"rect" : [ 163.0, 211.0, 1261.0, 1077.0 ],
+=======
+		"rect" : [ 90.0, 408.0, 1418.0, 752.0 ],
+>>>>>>> Stashed changes
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -29,6 +33,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< Updated upstream
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.filter~.maxpat",
@@ -38,6 +43,71 @@
 					"patching_rect" : [ 872.0, 880.245361, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 326.638184, 337.239716, 300.0, 70.0 ]
+=======
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 588.621338, 144.0, 36.0, 17.0 ],
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 900.0, 336.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 888.0, 384.0, 57.0, 19.0 ],
+					"text" : "qmetro 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 888.0, 444.0, 59.0, 19.0 ],
+					"text" : "jit.catch~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 888.0, 480.0, 175.0, 19.0 ],
+					"text" : "jit.net.send 10.204.17.196 9995"
+>>>>>>> Stashed changes
 				}
 
 			}
@@ -294,7 +364,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -449,7 +519,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -606,7 +676,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 10,
 					"numoutlets" : 0,
+<<<<<<< Updated upstream
 					"patching_rect" : [ 332.121338, 1043.745361, 141.0, 19.0 ],
+=======
+					"patching_rect" : [ 755.0, 808.0, 141.0, 19.0 ],
+>>>>>>> Stashed changes
 					"text" : "dac~ 1 2 3 4 5 6 7 8 9 10"
 				}
 
@@ -625,7 +699,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -847,7 +921,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 347.0, 633.245361, 220.0, 19.0 ],
+					"patching_rect" : [ 528.288818, 624.0, 220.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
@@ -888,8 +962,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+<<<<<<< Updated upstream
 					"patching_rect" : [ 73.0, 633.245361, 225.0, 17.0 ],
 					"text" : "/source.11/position 0.875054 3.42109 0."
+=======
+					"patching_rect" : [ 73.0, 633.245361, 227.0, 17.0 ],
+					"text" : "/audio/gain 100."
+>>>>>>> Stashed changes
 				}
 
 			}
@@ -907,11 +986,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 776.0, 305.0, 906.0, 481.0 ],
+						"rect" : [ 534.0, 305.0, 906.0, 481.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -934,12 +1013,20 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
+<<<<<<< Updated upstream
 									"id" : "obj-12",
+=======
+									"id" : "obj-11",
+>>>>>>> Stashed changes
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
+<<<<<<< Updated upstream
 									"patching_rect" : [ 404.0, 270.0, 99.0, 19.0 ],
+=======
+									"patching_rect" : [ 300.0, 285.0, 99.0, 19.0 ],
+>>>>>>> Stashed changes
 									"text" : "receive~ human3"
 								}
 
@@ -948,12 +1035,20 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
+<<<<<<< Updated upstream
 									"id" : "obj-11",
+=======
+									"id" : "obj-10",
+>>>>>>> Stashed changes
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
+<<<<<<< Updated upstream
 									"patching_rect" : [ 388.0, 251.0, 99.0, 19.0 ],
+=======
+									"patching_rect" : [ 285.0, 270.0, 99.0, 19.0 ],
+>>>>>>> Stashed changes
 									"text" : "receive~ human2"
 								}
 
@@ -962,12 +1057,20 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
+<<<<<<< Updated upstream
 									"id" : "obj-10",
+=======
+									"id" : "obj-9",
+>>>>>>> Stashed changes
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
+<<<<<<< Updated upstream
 									"patching_rect" : [ 376.0, 232.0, 99.0, 19.0 ],
+=======
+									"patching_rect" : [ 270.0, 255.0, 99.0, 19.0 ],
+>>>>>>> Stashed changes
 									"text" : "receive~ human1"
 								}
 
@@ -1135,6 +1238,7 @@
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< Updated upstream
 									"destination" : [ "obj-20", 8 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1148,6 +1252,12 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-11", 0 ]
+=======
+									"destination" : [ "obj-20", 9 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+>>>>>>> Stashed changes
 								}
 
 							}
@@ -1156,7 +1266,11 @@
 									"destination" : [ "obj-20", 10 ],
 									"disabled" : 0,
 									"hidden" : 0,
+<<<<<<< Updated upstream
 									"source" : [ "obj-12", 0 ]
+=======
+									"source" : [ "obj-11", 0 ]
+>>>>>>> Stashed changes
 								}
 
 							}
@@ -1304,6 +1418,15 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 8 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -1368,7 +1491,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2211,9 +2334,21 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 897.5, 479.0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+<<<<<<< Updated upstream
+=======
 					"midpoints" : [ 87.386635, 345.719055, 87.886635, 345.719055 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -2224,6 +2359,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+>>>>>>> Stashed changes
 					"midpoints" : [ 106.631264, 359.109528, 87.886635, 359.109528 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -2231,6 +2367,18 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< Updated upstream
+=======
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+>>>>>>> Stashed changes
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2259,19 +2407,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 9 ],
+					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 8 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -2289,7 +2428,7 @@
 					"destination" : [ "obj-21", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 75.5, 626.245361, 288.5, 626.245361 ],
+					"midpoints" : [ 75.5, 626.245361, 290.5, 626.245361 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -2305,6 +2444,18 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< Updated upstream
+=======
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+>>>>>>> Stashed changes
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -2381,7 +2532,11 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< Updated upstream
 					"destination" : [ "obj-2", 2 ],
+=======
+					"destination" : [ "obj-11", 0 ],
+>>>>>>> Stashed changes
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 7 ]
@@ -2390,7 +2545,11 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< Updated upstream
 					"destination" : [ "obj-2", 1 ],
+=======
+					"destination" : [ "obj-11", 0 ],
+>>>>>>> Stashed changes
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 6 ]
@@ -2399,7 +2558,11 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< Updated upstream
 					"destination" : [ "obj-2", 2 ],
+=======
+					"destination" : [ "obj-11", 0 ],
+>>>>>>> Stashed changes
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 5 ]
@@ -2408,7 +2571,11 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< Updated upstream
 					"destination" : [ "obj-2", 1 ],
+=======
+					"destination" : [ "obj-11", 0 ],
+>>>>>>> Stashed changes
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 4 ]
@@ -2417,7 +2584,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 3 ]
@@ -2426,7 +2593,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 2 ]
@@ -2435,7 +2602,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 1 ]
@@ -2444,7 +2611,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
@@ -2501,7 +2668,10 @@
 					"destination" : [ "obj-40", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
+<<<<<<< Updated upstream
 					"midpoints" : [ 366.0, 1064.0 ],
+=======
+>>>>>>> Stashed changes
 					"source" : [ "obj-35", 2 ]
 				}
 
@@ -2670,69 +2840,115 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.sur.ambisonics~.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.ambisonics~",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.ambisonics~",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambisonics~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambisonics~",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.ambisonics~.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.ambisonics~",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.ambisonics~",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambisonics~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambisonics~",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.message.array.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/message.array",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/message.array",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/message.array",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/message.array",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.message.array.instance.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/message.array",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/message.array",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/message.array",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/message.array",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.ambipanSource.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.ambipanning~",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.ambipanning~",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambipanning~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambipanning~",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/list2parameter",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/list2parameter",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.ambimonitor2position.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/ambimonitor2position",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/ambimonitor2position",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/ambimonitor2position",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/ambimonitor2position",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.multi.in~.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/multi.in%",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/multi.in%",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.in%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.in%",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.multi.out~.maxpat",
+<<<<<<< Updated upstream
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/multi.out%",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/multi.out%",
 				"type" : "JSON",
@@ -2756,6 +2972,10 @@
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+=======
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.out%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.out%",
+>>>>>>> Stashed changes
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2837,22 +3057,6 @@
 			}
 , 			{
 				"name" : "ambicontrol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.out~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
 				"type" : "iLaX"
 			}
  ]
