@@ -1,0 +1,8 @@
+### Remote host configuration file
+#
+#   param       description
+#   userathost: a list of remote hosts and user account for
+#               laptop orchestra computer grid
+
+userathost:   lol@one.local, lol@two.local, lol@three.local, lol@four.local, lol@five.local
+#userathost:   sdbeck@sdbeck-1.lsu.edu
