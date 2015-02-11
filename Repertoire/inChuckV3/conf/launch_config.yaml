@@ -1,0 +1,12 @@
+### Launch mode - configuration file
+#   order of operation
+#
+#   param   description
+#   pre:    local script run before launch
+#   sh:     script to be run on remote machines 
+#   post:   local script run after launch
+
+pre: ~/Desktop/music/inChuckV3/scripts/launch_inChuckVizApp.sh
+#pre: ~/Desktop/music/inChuck/scripts/launch_inChuckMessenger.sh
+sh: /tmp/inChuckV3/scripts/launch_inchuck.sh
+#post: ~/Desktop/music/inChuck/scripts/launch_inChuckVizApp.sh

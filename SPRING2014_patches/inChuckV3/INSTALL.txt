@@ -1,4 +1,0 @@
-INSTALL - inChuckV3
-
-To INSTALL inChuckV3, first install the chuck sound synthesis language, available from http://chuck.cs.princeton.edu/.  Once you have complete this, copy this folder (inChuckV3) to your Macintosh desktop folder (~/Desktop).
-

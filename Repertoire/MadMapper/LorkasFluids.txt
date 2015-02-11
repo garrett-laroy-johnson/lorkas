@@ -1,0 +1,288 @@
+
+ 
+ CUE "Lorkas" ramp 5000 
+ 
+ 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ 	 	 	 	 /input%/active 1 
+ 	 	 	 	 /input%/camera/camera none 
+ 	 	 	 	 /input%/camera/device none 
+ 	 	 	 	 /input%/camera/size 1 
+ 	 	 	 	 /input%/camera/updaterate 1 
+ 	 	 	 	 /input%/desktop/offset/x 0 ramp global 
+ 	 	 	 	 /input%/desktop/offset/y 0 ramp global 
+ 	 	 	 	 /input%/desktop/size/x 320 ramp global 
+ 	 	 	 	 /input%/desktop/size/y 240 ramp global 
+ 	 	 	 	 /input%/file/autostart 1 
+ 	 	 	 	 /input%/file/framedump 0 
+ 	 	 	 	 /input%/file/loop/bounds 0.000000 
+ 	 	 	 	 /input%/file/loop/mode 1 
+ 	 	 	 	 /input%/file/open traffic.mov 
+ 	 	 	 	 /input%/file/rate 1.000000 ramp global 
+ 	 	 	 	 /input%/file/size 2 
+ 	 	 	 	 /input%/source camera 
+ 	 	 	 	 /input%/synth/color/active 0 
+ 	 	 	 	 /input%/synth/color set 
+ 	 	 	 	 /input%/synth/noise/planes 4 
+ 	 	 	 	 /input%/synth/noise/size/x 320 ramp global 
+ 	 	 	 	 /input%/synth/noise/size/y 240 ramp global 
+ 	 	 	 	 /input%/updaterate 1 
+ 	 	 	 	 /input%/video/freeze 0 
+ 	 	 	 	 /input%/video/gain 100.000000 ramp global 
+ 	 	 	 	 /input%/video/mute 0 
+ 	 	 	 	 /input%/video/preview 1 
+ 	 	 	 	 /input%/view/freeze 0 
+ 	 	 	 	 /input%/view/highlight none 
+ 	 	 	 	 /onDeck/view/freeze 0 
+ 	 	 	 	 /onDeck/view/highlight 0 
+ 	 	 	 	 /orsize%/angle 0 ramp global 
+ 	 	 	 	 /orsize%/boundmode clip 
+ 	 	 	 	 /orsize%/mirror 0 
+ 	 	 	 	 /orsize%/offsetX 0.000000 ramp global 
+ 	 	 	 	 /orsize%/offsetY 0.000000 ramp global 
+ 	 	 	 	 /orsize%/rotate1 0 
+ 	 	 	 	 /orsize%/rotate2 0 
+ 	 	 	 	 /orsize%/video/bypass 0 
+ 	 	 	 	 /orsize%/video/freeze 0 
+ 	 	 	 	 /orsize%/video/mute 0 
+ 	 	 	 	 /orsize%/video/preview 1 
+ 	 	 	 	 /orsize%/view/freeze 0 
+ 	 	 	 	 /orsize%/view/highlight 0 
+ 	 	 	 	 /orsize%/zoomX 1.000000 ramp global 
+ 	 	 	 	 /orsize%/zoomY 1.000000 ramp global 
+ 	 	 	 	 /o4.fluids/densityBlend 0.940000 
+ 	 	 	 	 /o4.fluids/densityFade 1.000000 
+ 	 	 	 	 /o4.fluids/densityScale 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp pass 
+ 	 	 	 	 /o4.fluids/gravityAngle 0.000000 
+ 	 	 	 	 /o4.fluids/gravityMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.142550 0.000000 0.380952 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.085714 1.000000 0.451429 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.000000 0.422734 0.761905 0.000000 
+ 	 	 	 	 /o4.fluids/reset 0 
+ 	 	 	 	 /o4.fluids/temperatureMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/timestep 0.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 0.186000 
+ 	 	 	 	 /o4.fluids/velocityFade 0.540000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.756989 0.838095 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.004868 0.000000 0.047158 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.223656 0.000000 0.666667 0.000000 
+ 	 	 	 	 /o4.fluids/velocityOutHeight 240 
+ 	 	 	 	 /o4.fluids/velocityOutWidth 320 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.178433 0.628571 0.000000 
+ 	 	 	 	 /o4.fluids/video/bypass 0 
+ 	 	 	 	 /o4.fluids/video/mute 0 
+ 	 	 	 	 /o4.fluids/video/preview 0 
+ 	 	 	 	 /o4.fluids/view/freeze 0 
+ 	 	 	 	 /o4.fluids/view/highlight 0 
+ 	 	 	 	 /o4.fluids/viscosity 0.630000 
+ 	 	 	 	 /o4.fluids/vorticity 0.100000 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "Oliveros" ramp 5000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /input%/video/preview 0 
+ 	 	 	 	 /orsize%/mirror 0 
+ 	 	 	 	 /o4.fluids/densityBlend 0.960000 
+ 	 	 	 	 /o4.fluids/densityScale 0.400123 0.000000 0.704762 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp addition 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.006144 0.000000 0.095238 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.089462 0.000000 0.495238 0.000000 
+ 	 	 	 	 /o4.fluids/reset 0 
+ 	 	 	 	 /o4.fluids/timestep 1.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 1.000000 
+ 	 	 	 	 /o4.fluids/velocityFade 1.000000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.237911 0.000000 0.419048 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.000000 0.046697 0.361905 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.260522 0.000000 0.380952 0.000000 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.016713 0.323810 0.000000 
+ 	 	 	 	 /o4.fluids/viscosity 1.000000 
+ 	 	 	 	 /o4.fluids/vorticity 0.000000 
+ 	 	 	 	 /supertranspose/audio/bypass 0 
+ 	 	 	 	 /supertranspose/audio/gain 0.000000 ramp global 
+ 	 	 	 	 /supertranspose/audio/mix 100.000000 ramp global 
+ 	 	 	 	 /supertranspose/audio/mute 1 
+ 	 	 	 	 /supertranspose/remix/noise 0.000000 
+ 	 	 	 	 /supertranspose/remix/noise_error 0.100000 
+ 	 	 	 	 /supertranspose/remix/relax 0.000000 
+ 	 	 	 	 /supertranspose/remix/sinus 0.000000 
+ 	 	 	 	 /supertranspose/remix/transient 0.000000 
+ 	 	 	 	 /supertranspose/spectral_envelope/max_freq 0.000000 
+ 	 	 	 	 /supertranspose/spectral_envelope/transpose 0.000000 
+ 	 	 	 	 /supertranspose/transpose 0.000000 
+ 	 	 	 	 /supertranspose/view/freeze 0 
+ 	 	 	 	 /supertranspose/view/highlight 0 
+ 	 	 	 	 /cueScript/view/freeze 0 
+ 	 	 	 	 /cueScript/view/highlight 0 
+ 	 	 	 	 /cuescript/view/freeze 0 
+ 	 	 	 	 /cuescript/view/highlight 0 
+ 	 	 	 	 /output~/audio/active 0 
+ 	 	 	 	 /output~/audio/gain 0.000000 ramp global 
+ 	 	 	 	 /output~/balance 0.000000 ramp global 
+ 	 	 	 	 /output~/ch.1 1 
+ 	 	 	 	 /output~/ch.2 2 
+ 	 	 	 	 /output~/limiter/active 1 
+ 	 	 	 	 /output~/limiter/dcblocker/active 1 
+ 	 	 	 	 /output~/limiter/lookahead 64 
+ 	 	 	 	 /output~/limiter/mode exponential 
+ 	 	 	 	 /output~/limiter/postamp 0.000000 
+ 	 	 	 	 /output~/limiter/preamp 6.000000 
+ 	 	 	 	 /output~/limiter/release 300.000000 
+ 	 	 	 	 /output~/limiter/threshold -1.000000 
+ 	 	 	 	 /output~/record/filetype aiff 
+ 	 	 	 	 /output~/record/samptype int24 
+ 	 	 	 	 /output~/saturation/active 1 
+ 	 	 	 	 /output~/saturation/depth 10.000000 
+ 	 	 	 	 /output~/view/freeze 0 
+ 	 	 	 	 /output~/view/highlight 0 
+ 	 	 	 	 /input~/audio/active 0 
+ 	 	 	 	 /input~/audio/gain 0.000000 ramp global 
+ 	 	 	 	 /input~/balance 0.000000 ramp global 
+ 	 	 	 	 /input~/ch.1 1 
+ 	 	 	 	 /input~/ch.2 2 
+ 	 	 	 	 /input~/clicktrain/rate 1.000001 ramp global 
+ 	 	 	 	 /input~/soundfile/loop 1 
+ 	 	 	 	 /input~/soundfile/play 0 
+ 	 	 	 	 /input~/soundfile/transpose 0.000000 ramp global 
+ 	 	 	 	 /input~/source soundfile 
+ 	 	 	 	 /input~/testtone/frequency 1000 ramp global 
+ 	 	 	 	 /input~/view/freeze 0 
+ 	 	 	 	 /input~/view/highlight 0 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 0.000000 ramp global 
+ 	 	 	 	 /filter~/audio/mix 100.000000 ramp global 
+ 	 	 	 	 /filter~/audio/mute 1 
+ 	 	 	 	 /filter~/filtergain 0.000000 ramp global 
+ 	 	 	 	 /filter~/filtertype lowpass 
+ 	 	 	 	 /filter~/frequency 1548.000000 ramp global 
+ 	 	 	 	 /filter~/q 1.000000 ramp global 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "Burner" ramp 1000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /input%/camera/device Logitech Camera 
+ 	 	 	 	 /input%/video/preview 1 
+ 	 	 	 	 /o4.fluids/densityBlend 0.000000 
+ 	 	 	 	 /o4.fluids/densityFade 0.972000 
+ 	 	 	 	 /o4.fluids/densityScale 0.000000 0.007127 0.552381 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp pass 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.047619 0.870968 1.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.002250 0.000000 0.012455 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.689267 0.689267 0.689267 0.000000 
+ 	 	 	 	 /o4.fluids/timestep 0.100000 
+ 	 	 	 	 /o4.fluids/velocityBlend 0.600000 
+ 	 	 	 	 /o4.fluids/velocityFade 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.010077 0.780952 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.001229 0.000000 0.019048 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityScale 0.317033 0.317033 0.317033 0.000000 
+ 	 	 	 	 /o4.fluids/video/preview 1 
+ 	 	 	 	 /o4.fluids/viscosity 1.020000 
+ 	 	 	 	 /o4.fluids/vorticity 0.100000 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "Sinken 2" ramp 20000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /o4.fluids/densityFade 0.985000 
+ 	 	 	 	 /o4.fluids/densityScale 0.000000 0.248725 0.876190 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp addition 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.000203 0.000000 0.003144 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.345745 0.161905 1.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.047926 0.000000 0.742857 0.000000 
+ 	 	 	 	 /o4.fluids/reset 1 
+ 	 	 	 	 /o4.fluids/timestep 10.000000 
+ 	 	 	 	 /o4.fluids/velocityFade 1.000000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.001720 0.133333 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.047926 0.000000 0.742857 0.000000 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.105684 0.819048 0.000000 
+ 	 	 	 	 /o4.fluids/video/preview 1 
+ 	 	 	 	 /o4.fluids/viscosity 10.000000 
+ 	 	 	 	 /o4.fluids/vorticity 1.000000 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "HumanCello" ramp 5000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /input%/video/mute 0 
+ 	 	 	 	 /input%/video/preview 0 
+ 	 	 	 	 /onDeck/view/highlight 0 
+ 	 	 	 	 /orsize%/mirror 0 
+ 	 	 	 	 /orsize%/view/highlight 0 
+ 	 	 	 	 /o4.fluids/densityBlend 0.900000 
+ 	 	 	 	 /o4.fluids/densityFade 1.000000 
+ 	 	 	 	 /o4.fluids/densityScale 3.752249 0.826083 3.771250 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp pass 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.892596 0.123810 1.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.869063 0.000000 0.990476 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/timestep 30.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 0.191000 
+ 	 	 	 	 /o4.fluids/velocityFade 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 1.000000 0.047619 0.895545 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.081999 0.000786 0.082526 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 3.207835 0.767543 3.223681 0.000000 
+ 	 	 	 	 /o4.fluids/velocityScale 1.000000 0.066667 0.933763 0.000000 
+ 	 	 	 	 /o4.fluids/video/preview 0 
+ 	 	 	 	 /o4.fluids/view/freeze 1 
+ 	 	 	 	 /o4.fluids/view/highlight 0 
+ 	 	 	 	 /o4.fluids/viscosity 20.000000 
+ 	 	 	 	 /o4.fluids/vorticity 0.000000 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "Outro" ramp 20000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /input%/video/preview 1 
+ 	 	 	 	 /o4.fluids/densityBlend 0.940000 
+ 	 	 	 	 /o4.fluids/densityScale 1.000000 1.000000 1.000000 0.000000 
+ 	 	 	 	 /o4.fluids/flowOp addition 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.142550 0.000000 0.380952 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.085714 1.000000 0.451429 0.000000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.000000 0.422734 0.761905 0.000000 
+ 	 	 	 	 /o4.fluids/reset 1 
+ 	 	 	 	 /o4.fluids/timestep 2.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 0.360000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.756989 0.838095 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.004868 0.000000 0.047158 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.223656 0.000000 0.666667 0.000000 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.178433 0.628571 0.000000 
+ 	 	 	 	 /o4.fluids/view/freeze 0 
+ 	 	 	 	 /o4.fluids/viscosity 0.630000 
+ 	 	 	 	 /o4.fluids/vorticity 1.000000 
+ # 
+ ######################## 
+ 
+ 
