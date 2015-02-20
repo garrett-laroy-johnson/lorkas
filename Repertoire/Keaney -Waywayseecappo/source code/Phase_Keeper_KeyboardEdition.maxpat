@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 361.0, 78.0, 1280.0, 705.0 ],
+		"rect" : [ 45.0, 123.0, 1280.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 231.0, 0.0, 150.0, 20.0 ],
+					"text" : "stereo on"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -76,7 +90,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -522,7 +535,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 172.0, 45.0, 45.0 ],
+					"patching_rect" : [ 231.0, 111.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.5, 336.5, 45.0, 45.0 ]
 				}
@@ -578,8 +591,9 @@
 					"id" : "obj-327",
 					"linecount" : 3,
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -609,6 +623,68 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-14",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 525.0, 15.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-13",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 340.0, 360.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-12",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 291.0, 360.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 340.0, 315.0, 41.0, 20.0 ],
+									"text" : "gate~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 291.0, 315.0, 41.0, 20.0 ],
+									"text" : "gate~"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -736,10 +812,64 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-11", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 4 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -754,10 +884,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-325", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-325", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -772,10 +920,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-11", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 7 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -790,10 +956,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-11", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 6 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -5250,6 +5434,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-327", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-239", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -6016,6 +6209,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-327", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-327", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-308", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -6124,44 +6335,44 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-151" : [ "gain~[3]", "gain~[3]", 0 ],
-			"obj-209" : [ "flonum[3]", "flonum[3]", 0 ],
+			"obj-102" : [ "gain~[1]", "gain~[1]", 0 ],
+			"obj-289" : [ "gain~[9]", "gain~[9]", 0 ],
+			"obj-24" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-243" : [ "gain~[13]", "gain~[13]", 0 ],
 			"obj-161" : [ "gain~[2]", "gain~[2]", 0 ],
-			"obj-299" : [ "gain~[8]", "gain~[8]", 0 ],
-			"obj-301" : [ "flonum[4]", "flonum[4]", 0 ],
+			"obj-51" : [ "slider[1]", "slider[1]", 0 ],
+			"obj-232" : [ "flonum[7]", "flonum[7]", 0 ],
+			"obj-163" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-276" : [ "gain~[10]", "gain~[10]", 0 ],
 			"obj-278" : [ "flonum[5]", "flonum[5]", 0 ],
 			"obj-230" : [ "gain~[14]", "gain~[14]", 0 ],
-			"obj-24" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-253" : [ "gain~[12]", "gain~[12]", 0 ],
-			"obj-289" : [ "gain~[9]", "gain~[9]", 0 ],
+			"obj-151" : [ "gain~[3]", "gain~[3]", 0 ],
+			"obj-184" : [ "gain~[4]", "gain~[4]", 0 ],
+			"obj-266" : [ "gain~[11]", "gain~[11]", 0 ],
 			"obj-186" : [ "flonum[2]", "flonum[2]", 0 ],
 			"obj-88" : [ "live.text", "live.text", 0 ],
 			"obj-123" : [ "gain~", "gain~", 0 ],
-			"obj-163" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-102" : [ "gain~[1]", "gain~[1]", 0 ],
-			"obj-276" : [ "gain~[10]", "gain~[10]", 0 ],
-			"obj-207" : [ "gain~[6]", "gain~[6]", 0 ],
+			"obj-253" : [ "gain~[12]", "gain~[12]", 0 ],
+			"obj-174" : [ "gain~[5]", "gain~[5]", 0 ],
+			"obj-220" : [ "gain~[15]", "gain~[15]", 0 ],
+			"obj-255" : [ "flonum[6]", "flonum[6]", 0 ],
+			"obj-86" : [ "slider[3]", "slider[3]", 0 ],
 			"obj-4" : [ "toggle", "toggle", 0 ],
 			"obj-308" : [ "number", "number", 0 ],
-			"obj-86" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-197" : [ "gain~[7]", "gain~[7]", 0 ],
-			"obj-51" : [ "slider[1]", "slider[1]", 0 ],
-			"obj-243" : [ "gain~[13]", "gain~[13]", 0 ],
+			"obj-207" : [ "gain~[6]", "gain~[6]", 0 ],
+			"obj-209" : [ "flonum[3]", "flonum[3]", 0 ],
 			"obj-126" : [ "flonum", "flonum", 0 ],
-			"obj-184" : [ "gain~[4]", "gain~[4]", 0 ],
-			"obj-255" : [ "flonum[6]", "flonum[6]", 0 ],
-			"obj-232" : [ "flonum[7]", "flonum[7]", 0 ],
-			"obj-266" : [ "gain~[11]", "gain~[11]", 0 ],
+			"obj-197" : [ "gain~[7]", "gain~[7]", 0 ],
 			"obj-8" : [ "slider", "slider", 0 ],
-			"obj-63" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-174" : [ "gain~[5]", "gain~[5]", 0 ],
-			"obj-220" : [ "gain~[15]", "gain~[15]", 0 ]
+			"obj-299" : [ "gain~[8]", "gain~[8]", 0 ],
+			"obj-301" : [ "flonum[4]", "flonum[4]", 0 ],
+			"obj-63" : [ "slider[2]", "slider[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "tml.dmx_ch.maxpat",
 				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/code/Synthesis_o4/O4_ASU/O4.lighting.ASU",
-				"patcherrelativepath" : "../../../../../SPRING 2014/SYNTHESIS/code/Synthesis_o4/O4_ASU/O4.lighting.ASU",
+				"patcherrelativepath" : "../../../../../../SPRING 2014/SYNTHESIS/code/Synthesis_o4/O4_ASU/O4.lighting.ASU",
 				"type" : "JSON",
 				"implicit" : 1
 			}
