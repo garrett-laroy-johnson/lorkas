@@ -1,0 +1,30 @@
+Perc. Soloist (Whispered Consonances)
+cue 1: (song leader solo)
+cue 2: sing leader’s note using any vowel
+cue 3: sing leader’s note using any vowel
+cue 4: sing leader’s note using any vowel
+cue 5: sing leader’s note using any vowel
+cue 6: hold note
+cue 7: stop, count one second, and now make percussive sounds
+cue 8: press r
+cue 9: solo (with percussive sounds)
+cue 10: quick pause, press r, continue solo
+cue 11: continue solo
+cue 12: stop singing (stop making percussive sounds)
+cue 13: silence
+cue 14: sing any notes in C7 freely on vowels, “z”, “v”, and rolled “r”
+cue 15: continue (singing C7 freely on vowels, “z”, “v”, and rolled “r”)
+cue 16: sing very sparsely
+cue 17: stop singing — silence
+cue 18: silence
+cue 19: silence
+cue 20: turn up volume output (up arrow), turn on flashlight, move flashlight in front of webcam
+cue 21: continue moving flashlight in front of webcam, press numbers 5-9 freely
+cue 22: continue moving flashlight in front of webcam & pressing numbers 5-9 freely
+cue 23: continue
+cue 24: continue movement, press 1
+cue 25: continue flashlight movement, sing C7 freely
+cue 26: STOP FLASHLIGHT! Place flashlight face-down and out of webcam’s sight
+cue 27: sustain whatever note you are singing
+cue 28: keep sustaining sung note
+cue 29: turn down volume, stop singing — END of piece
