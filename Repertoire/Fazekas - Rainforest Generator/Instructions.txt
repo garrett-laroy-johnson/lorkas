@@ -1,0 +1,31 @@
+To play the "Rainforest Machine":
+
+Open "rainforest" in Supercollider. Start the server, 
+click the code, and press Ctrl + Enter.
+
+4 players are needed to play each of the 4 parts (birds, 
+frogs, animals, ambiant), although more players can play.
+Parts are selected from the green drop-down menu. 
+
+Some of the sounds are more intrusive, so the parts 
+should be evenly distributed among the players. For 
+example, if 7 people are playing, there should be at 
+least one on each part, and more people playing
+"forest", than playing "birds" etc.
+
+To begin the piece, have some of the players start the 
+background rain noise by clicking the blue button, "Make
+it Rain!", it helps if everyone gradually enters the
+piece, instead of all at once. To begin the additional 
+animal noises, begin clicking on the pop-up windows that
+generate throughout the piece. Clicking one one will 
+immediately cause it to darken and a new one will appear.
+Begin by slowly clicking the pop-ups, and gradually 
+clicking them faster and faster. 
+
+To end the piece, gradually decrease the speed you are 
+moving your mouse and clicking the generated pop-up 
+windows, until only rain noise is left. To stop the 
+piece entirely, click on the red "Close All" button, and
+all the windows will close, the rain will stop, and 
+any remaining sounds will shortly end.
